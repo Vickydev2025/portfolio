@@ -73,6 +73,7 @@
         margin-top: 10px;
     }
     
+
     footer {
         margin-top: 30px;
         padding: 15px;
@@ -84,6 +85,39 @@
         font-size: 14px;
         color: #555;
     }
+
+    form {
+        background-color: white;
+        display: inline-block;
+        padding: 20px; 
+        border-radius: 15px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-family: inherit;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+    
+    button {
+        background-color: #ff0099;
+        color: white;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    button:hover{
+        opacity: 0.9;
+    }
 </style>
 
 <body>
@@ -91,6 +125,7 @@
         <a href="#inicio">Inicio</a>
         <a href="#hobbies">Hobbies</a>
         <a href="#metas">Metas</a>
+        <a href="#contacto">Contacto</a>
     </nav>
 
     <div class="card" id="inicio">
@@ -118,10 +153,23 @@
 
     <h2>Metas por cumplir</h2>
     <ul class="goals">
-        <li>🎯 Crear m propio juego completo</li>
-        <li>🎯 Hacer un canal de toutube de programación</li>
-        <li>🎯 Aprender mas HtMl y CSs</li>
+        <li>🎯 Crear mi propio juego completo</li>
+        <li>🎯 Hacer un canal de YouTube de programación</li>
+        <li>🎯 Aprender mas HtMl y CSS</li>
     </ul>
+
+    <h2 id="contacto">Contacto</h2>
+    <form>
+        <p>
+            <label>Tu nombre:</label><br>
+            <input type="text">
+        </p>
+        <p>
+            <label>Tu mensaje:</label><br>
+            <textarea rows="4"></textarea>
+        </p>
+        <button type="button">Enviar</button>
+    </form>
 
     <footer>
         <p>Creado por Victoria en 2025 💖🎤</p>
