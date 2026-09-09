@@ -1,0 +1,17 @@
+body {
+    background-color: silver;
+    font-family:arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'segoe script', 'brush script MT', cursive;
+    color: purple;
+    margin: 0 0 15px;
+}
